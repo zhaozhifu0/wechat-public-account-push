@@ -60,7 +60,7 @@ export const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "努力的人",
+      name: "弱点",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "onPME54pkPJW6fEg88pX9XDlbkvw",
       // 你想对他发送的模板消息的模板ID
@@ -78,11 +78,11 @@ export const USER_CONFIG = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09"},
-        {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+        {"type": "*生日", "name": "自己", "year": "1994", "date": "11-19"},
+        // {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+        // {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
+        // {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -95,12 +95,12 @@ export const USER_CONFIG = {
       ]
     },
     {
-      name: "老婆1",
+      name: "赵志富",
       id: "onPME55QDi1btWM34hSKiIRgPwy8",
       useTemplateId: "qcby7ZqhiBVfa1aW3Ly8X9iDsINZWfXML3rhpiLvGx8",
       province: "吉林",
       city: "长春",
-      horoscopeDate: '12-21',
+      horoscopeDate: '11-19',
       horoscopeDateType: '今日',
       openUrl: "http://www.zhaozf.site",
       festivals: [],
